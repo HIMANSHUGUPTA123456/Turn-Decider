@@ -4,10 +4,10 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
-const authRoutes = require('./routes/auth');
-const pairRoutes = require('./routes/pair');
-const consentRoutes = require('./routes/consent');
-const historyRoutes = require('./routes/history');
+const authRoutes = require('./src/routes/auth');
+const pairRoutes = require('./src/routes/pair');
+const consentRoutes = require('./src/routes/consent');
+const historyRoutes = require('./src/routes/history');
 
 const app = express();
 app.use(cors());
